@@ -1,0 +1,76 @@
+.faq-title{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.faq-title h3{
+    color: rgb(13, 161, 219);
+}
+.faq-title p{
+  padding-right: 2rem;
+}
+.faq-container{
+    width: 80%;
+    margin: 5rem auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+/* CSS for the up and down arrows */
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-left: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  .faq-inner-div{
+    border: 1px solid #75c2f67c; 
+    padding: 0.5rem 1rem 0.2rem 1rem;
+    margin: 0 2.5rem 1rem 0;
+    /* background: #4bd6bf7e; */
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  }
+  .faq-inner-div:hover{
+    background: #75c2f64f;
+  }
+  .active-question {
+    background-color: #75c2f64f; /* Define the background color for the active question */
+  }
+  .faq-question{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .faq-question h2{
+    font-size: 16px;
+    color: rgb(95, 89, 89);
+  }
+  .faq-answer{
+    font-size: 13px;
+  }
+  /* CSS for the up arrow (when the question is expanded) */
+  .arrow.up {
+    margin-top: 5px;
+    border-bottom: 5px solid #000; /* Change the color to your desired color */
+    /* transform: rotate(180deg); */
+  }
+  
+  /* CSS for the down arrow (when the question is collapsed) */
+  .arrow.down {
+    margin-top: 5px;
+    border-top: 5px solid #000; /* Change the color to your desired color */
+  }
+  .faq-right{
+    /* border: 1px solid;  */
+    height: 550px;
+    width: 100%;
+    margin: auto;
+  }
+  .faq-right img{
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

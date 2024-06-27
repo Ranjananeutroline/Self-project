@@ -1,0 +1,23 @@
+.bg-body-tertiary{
+    padding: 0.8rem 1rem;
+    /* background: green!important; */
+    background: #19A7CE!important;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-brand{
+    color: white;
+} 
+.nav-link{
+    margin-right: 2rem;
+    color: white; 
+}
+.nav-link:hover{
+    color: white;
+} 
+.navbar-nav .nav-link.active {
+    color: orange;
+    font-weight: 550;
+  }

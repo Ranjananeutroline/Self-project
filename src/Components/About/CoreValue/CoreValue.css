@@ -1,0 +1,29 @@
+.value-title{
+    width: 80%;
+    margin: 5rem auto 1rem auto;
+    text-align: center;
+}
+.value-title h3{
+    color: rgb(13, 161, 219);
+}
+.value-title p{
+    font-size: 17px;
+}
+.value-container{
+    /* border: 1px solid;  */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three equal columns */
+    gap: 15px;   
+    width: 80%;
+    margin: 1.5rem auto;
+}
+.value-item {
+    /* border: 1px solid; */
+    padding: 1.5rem 1rem 1rem 1.5rem;
+    text-align: left;
+    /* box-shadow: #e9ecefa8 0px 2px 8px 0px; */
+}
+.value-inner-div{
+    display: flex;
+    gap: 2rem;
+}

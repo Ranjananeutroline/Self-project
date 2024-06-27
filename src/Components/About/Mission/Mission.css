@@ -1,0 +1,45 @@
+.mission-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* border: 1px solid; */
+    width: 80%;
+    margin: 2rem auto 1rem auto;
+}
+.mission-left{
+    /* border: 1px solid red; */
+}
+.mission-right{
+    /* border: 1px solid red; */
+    padding: 1.5rem 2rem 0 2rem;
+}
+.mission-right h3{
+    text-align: left;
+    color: rgb(13, 161, 219);
+}
+.right-bottom{
+    margin: 3rem 0 1rem 0;
+}
+.bottom{
+    /* border: 1px solid; */
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.b-right{
+    padding: 0.2rem 0 0 1.5rem;
+}
+.b-right h5{
+    color: #05c5eb;
+    font-size: 1.15rem;
+}
+.m-icon, .v-icon{
+    /* background: skyblue; */
+   
+}
+.m-icon svg, .v-icon svg{
+    font-size: 50px;
+    color: #64CCC5;
+}
+/* .m-icon{
+    background: skyblue;
+    padding: 1rem;
+} */

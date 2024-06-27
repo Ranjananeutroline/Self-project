@@ -1,0 +1,19 @@
+.needs-container{
+    /* border: 1px solid;  */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Three equal columns */
+    gap: 16px;   
+    width: 80%;
+    margin: 1rem auto;
+}
+.needs-item {
+    /* border: 1px solid; */
+    padding: 1rem; 
+    text-align: center;
+    box-shadow: #e9ecefa8 0px 2px 8px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.needs-item h5{
+    font-weight: 550;
+    margin-top: 1rem;
+}

@@ -1,0 +1,94 @@
+.wservice-title{
+    width: 80%;
+    margin: auto;
+    color: rgb(13, 161, 219);
+    padding-top: 2rem;
+}
+.wservice-container{
+    /* border: 1px solid;  */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    /* gap: 16px;   */
+    width: 80%;
+    margin: 1.5rem auto;
+}
+.wservice-item {
+    /* border: 1px solid; */
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    text-align: left;
+    box-shadow: #e9ecefa8 0px 2px 8px 0px;
+}
+.wservice-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+}
+.wservice-item:hover .witem-title {
+    color: #1679AB; /* Change this to your desired color */
+}
+.wservice-item:nth-child(odd){
+    background: #86b7fe21;
+}
+.wservice-item img{
+    margin-bottom: 1rem;
+}
+.wservice-item p{
+    font-size: 14px;
+}
+.wservice-read{
+    margin-top: 1.5rem;
+    justify-content: left;
+}
+.wservice-read-btn{
+    border: none;
+    padding: 7px 12px;
+    background: #8B93FF;
+    color: white;
+    font-size: 13px;
+}
+.wservice-read-btn:hover{
+    background: #838af1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.more-btn{
+    justify-content: end;
+    text-align: right;
+}
+.more-btn button{
+    border: none;
+    padding: 0 5px;
+    background: #c0c6c970;
+    border-radius: 50%;
+}
+.more-btn button:hover{
+    background: #c0c6c998;
+}
+.more-btn button svg{
+    font-size: 12.5px;
+    margin-bottom: 2px;
+    color: #0000008c;
+}
+.modal-dialog {
+    max-width: 630px!important; /* Adjust this value as needed */
+    margin: 2rem auto!important;
+}
+.waste-title{
+    color: #1679AB!important;
+    padding: 0 0.5rem!important;
+}
+.waste-body{
+    padding: 1.5rem!important;
+}
+.waste-footer{
+    padding: 0 1.5rem!important;
+}
+.waste-text{
+    font-size: 14px;
+    margin: 1rem 0;
+}
+.waste-btn{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    color: white;background: #1679AB;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 1.5rem 0;
+}

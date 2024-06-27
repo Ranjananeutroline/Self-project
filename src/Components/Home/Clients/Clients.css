@@ -1,0 +1,52 @@
+.client-title{
+    width: 80%;
+    margin: auto;
+    color: rgb(13, 161, 219);
+    padding-top: 1rem;
+    text-align: center;
+}
+.carousal-img-div{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.carousel{
+    width: 80%;
+    margin: 2.5rem auto;
+}
+.carousel-indicators {
+    display: none;
+}
+.carousel-control-prev {
+    background-color: rgb(241, 248, 250); /* Background color */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    border: none; /* Remove border */
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    top: 50%; /* Position vertically centered */
+    transform: translateY(-50%); /* Center vertically */
+  }
+  
+  .carousel-control-prev-icon {
+   
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+  }
+  
+  /* Style for the next arrow */
+  .carousel-control-next {
+    background-color: rgb(241, 248, 250); /* Background color */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    border: none; /* Remove border */
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    top: 50%; /* Position vertically centered */
+    transform: translateY(-50%); /* Center vertically */
+  }
+  
+  .carousel-control-next-icon {
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+  }

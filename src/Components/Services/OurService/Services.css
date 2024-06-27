@@ -1,0 +1,22 @@
+.service-title{
+    width: 80%;
+    margin: 8rem auto 1rem auto;
+    text-align: center;
+}
+.service-title h3{
+    color: rgb(13, 161, 219);
+}
+.service-title p{
+    font-size: 17px;
+}
+hr{
+    border: 2px solid green;
+    width: 10%; 
+    margin: auto;
+}
+.service-text{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0;
+}

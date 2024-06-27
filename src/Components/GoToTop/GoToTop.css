@@ -1,0 +1,19 @@
+.go-to-top-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #19A7CE;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  .go-to-top-button svg{
+    font-size: 20px;
+  }
+  .go-to-top-button:hover {
+    opacity: 1;
+  }
